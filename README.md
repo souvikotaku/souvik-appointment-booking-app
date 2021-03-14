@@ -11,6 +11,7 @@ https://souvik-appointment-bookingapp.herokuapp.com/
 4) make a booking.
 5) go to my bookings page and see your booking.
 6) to make a new booking, delete the previous booking from my booking page and go back to new booking page to make a new booking.
+7) you can logout by clicking on logout button
 
 # Steps for admin:-
 1) make an account.
@@ -18,6 +19,7 @@ https://souvik-appointment-bookingapp.herokuapp.com/
 3) click on all bookings link to go that page.
 4) there you can see the bookings from all users.
 5) you can delete any booking you want.
+6) you can logout by clicking on logout button
 
 # I might add more features in future.
 
