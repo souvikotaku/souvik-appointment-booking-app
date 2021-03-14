@@ -1,6 +1,9 @@
 # souvik-appointment-booking-app
 I made this appointment booking app with jwt authentication for both user and admin accounts. I have implemented protected routes in this project which limits pages based on the person logging it (whether it is a auser or an admin). The users can make a booking and also delete it to make another booking. The admin can see the bookings of all the users.
 
+# Check out the live app here:-
+https://souvik-appointment-bookingapp.herokuapp.com/
+
 # Steps for User:-
 1) make an account.
 2) log in.
@@ -18,5 +21,4 @@ I made this appointment booking app with jwt authentication for both user and ad
 
 # I might add more features in future.
 
-# Check out the live app here:-
-https://souvik-appointment-bookingapp.herokuapp.com/
+
