@@ -1,0 +1,308 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+
+.fillpic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+  
+  .headsect {
+      background-color: rgba(0, 0, 0, 0.637);
+  }
+
+
+
+.registerback {
+    display: flex;
+    justify-content: center;
+    /* background-image:linear-gradient(rgba(3, 19, 49, 0.733),rgba(86, 97, 121, 0.774)); */
+    height: 100%;
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+.colorbox {
+    margin-top: 7%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    margin-bottom: 10px;
+}
+
+
+.registext {
+    text-align: center;
+    color:  black;
+}
+
+
+
+.indv {
+    padding: 8px;
+}
+
+.newrow {
+    position: relative;
+    text-align: center;
+}
+
+.coolone {
+    
+    width: 100%;
+    display: inline-block;
+}
+
+.newcardone {
+    box-shadow: 0px 0px 5px;
+    
+   background-color: white;
+  transform: translate(0%,20%);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.centericon {
+    text-align: center;
+    
+}
+
+.signicon {
+    color:#1885d2;
+}
+.indv option{
+    font-weight: bold;
+}
+
+/* forgotpassword */
+
+.resback {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* background-image:linear-gradient(rgba(3, 19, 49, 0.733),rgba(86, 97, 121, 0.774)),url(../../uploads/1611297117032cyberpunk.jpg); */
+    height: 100%;
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    padding: 0px;
+    /* margin-top: 5%; */
+}
+
+.rescolor {
+    margin-top: 110px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    margin-bottom: 115px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    text-align: center;
+    width: 400px;
+}
+
+.forgottext {
+    text-align: center;
+    color:  black;
+    font-size: 30px;
+}
+
+.space{
+    height: 5px;
+}
+
+.space2{
+    height: 15px;
+}
+
+input.form-control{
+    width:90% !important;
+}
+
+/* forgotpassword.js */
+
+.newcardtwo {
+    box-shadow: 0px 0px 5px;
+   background-color: white;
+  transform: translate(0%,20%);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* enquiry form */
+
+.enquiryback {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    /* background-image:linear-gradient(rgba(3, 19, 49, 0.733),rgba(86, 97, 121, 0.774)),url(../../uploads/1611297117032cyberpunk.jpg); */
+    height: 100%;
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    padding: 0px;
+    /* margin-top: 5%; */
+  }
+
+  .enqcolor {
+    margin-top: 30px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 70%;
+}
+
+.submit_btn {
+    padding: 1%;
+}
+  
+.submit_btn .btn{
+  background-color: #1885d2 !important;
+  margin-left: 2.5%;
+}
+
+.phinput {
+  margin-top: 3.1%;
+}
+
+.mhinput {
+    width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 12px;
+}
+
+
+
+@media (orientation: portrait) {
+    .floatbtn {
+        margin-left: 0%;
+    }
+}
+@media (orientation:landscape){
+    .faqcard {
+        width: 72rem;
+    }
+
+    .colorbox { 
+        width: 80%;
+        padding: 2%;
+    }
+
+    
+}
+@media (orientation:landscape){
+    .newrow {
+        position: relative;
+        text-align: center;
+    }
+
+    .coolone {
+        
+        width: 100%;
+        display: inline-block;
+    }
+   
+    .colorbox { 
+        width: 25%;
+        padding: 2%;
+    }
+    
+    
+    
+}
+
+
+
+@media (min-width:768px){
+    .city {
+        margin-left: 190px;
+        
+    }
+
+    .phinput {
+        margin-top: 4.8%;
+      }
+}
+@media (max-width:768px){
+      .input-group-addon {
+        padding: 8px 10px;
+    }
+}
+
+@media (min-width:1024px){
+    .city {
+        margin-left: 250px;
+    }
+    
+    .phinput {
+        margin-top: 3.6%;
+      }
+}
+
+@media (min-width:1028px){
+    .phinput {
+        margin-top: 4.1%;
+      }
+
+}
+
+
+
+@media (min-width:1056px){
+    .city {
+        margin-left: 210px;
+        
+    }
+}
+
+
+
+@media (min-width:1366px){
+    .city {
+        margin-left: 270px;
+        
+    }
+
+    .phinput {
+        margin-top: 3.1%;
+      }
+
+    
+}
+
+@media (orientation:portrait){
+    .registerback {
+        padding: 10px;
+    }
+
+    .rescolor {
+        width: 80%;
+    }
+
+    .enqcolor {
+        width: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
